@@ -1,5 +1,7 @@
 # food
 
+## frontend
+
 + first create a new project using vite [docs](https://tailwindcss.com/docs/guides/vite)
 
 ```
@@ -31,3 +33,23 @@ Add the @tailwind directives for each of Tailwind’s layers to your ./src/index
 npm run dev
 ```
 
+## backend
+
+create a new folder
+
+```
+mkdir my-backend-app
+cd my-backend-app
+```
+
+```
+npm init -y
+```
+
+install express mongoose
+
+```
+npm install express mongoose
+```
+
+create a index.js file

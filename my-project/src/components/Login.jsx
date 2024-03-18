@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
 
-const Login = ({ onLogin }) => {
+const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
 
     const handleLogin = () => {
-        // You can add your authentication logic here
-        // For simplicity, let's just pass the username to the parent component
         sessionStorage.setItem('username', username);
         sessionStorage.setItem('password', password);
         navigate('/')
-        // onLogin(username);
     };
 
     return (

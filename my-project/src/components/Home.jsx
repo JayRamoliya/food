@@ -22,21 +22,6 @@ const Home = () => {
         fetchData();
     }, []);
 
-    const handleOpenDetails = async (recipeId) => {
-        try {
-            const response = await fetch(`http://localhost:3000/api/recipes/${recipeId}`);
-            if (!response.ok) {
-                throw new Error('Failed to fetch recipe details');
-            }
-            const recipeDetails = await response.json();
-            console.log('Recipe Details:', recipeDetails);
-
-        } catch (error) {
-            console.error('Error fetching recipe details:', error.message);
-        }
-    };
-
-
     return (
         <>
         <h2 className='font-bold text-black text-2xl text-center mt-5'>Welcome</h2>

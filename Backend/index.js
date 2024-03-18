@@ -3,11 +3,11 @@ const express = require('express');
 const connectdb = require('./db/connect');
 
 const app = express();
-const PORT = process.env.PORT || 3000; 
+const PORT = 3000; 
 
 const Recipe = require('./models/Recipe');
-const cors = require('cors');
 
+const cors = require('cors');
 app.use(cors());
 
 

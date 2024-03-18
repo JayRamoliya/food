@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import { useParams, useNavigate, Link } from 'react-router-dom';
 
-const RecipeDetails = ({ match }) => {
+const RecipeDetails = () => {
     const { id } = useParams();
 
     const [recipe, setRecipe] = useState(null);
@@ -36,7 +36,6 @@ const RecipeDetails = ({ match }) => {
                             <p className="text-gray-600 mb-9">{recipe.description}</p>
                             <p className="mt-2"><span className="font-bold text-xl">Instructions:</span> {recipe.instructions}</p>
                             <p className="mt-2"><span className="font-bold text-xl">Items: </span> {recipe.ingredients.join(', ')}</p>
-                            {/* Back button */}
                             <Link to="/" className="mt-4 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-block">Back</Link>
                         </div>
                     </div>
