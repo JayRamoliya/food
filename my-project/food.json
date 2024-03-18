@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Pasta Carbonara",
+      "description": "Classic Italian pasta dish with bacon, eggs, and cheese.",
+      "ingredients": ["Spaghetti", "Eggs", "Bacon", "Parmesan Cheese"],
+      "instructions": "Cook spaghetti. Fry bacon. Mix eggs and cheese. Combine all."
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "description": "Spicy Indian chicken dish in a creamy tomato-based sauce.",
+      "ingredients": ["Chicken", "Tomatoes", "Onions", "Spices"],
+      "instructions": "Marinate chicken. Grill. Simmer in tomato sauce."
+    },
+    {
+      "name": "Margherita Pizza",
+      "description": "Classic Italian pizza topped with tomato, mozzarella, and basil.",
+      "ingredients": ["Pizza dough", "Tomato sauce", "Mozzarella cheese", "Fresh basil"],
+      "instructions": "Roll out dough. Spread tomato sauce. Add cheese and basil. Bake in oven."
+    },
+    {
+      "name": "Beef Stroganoff",
+      "description": "Comforting Russian dish with tender beef in a creamy mushroom sauce.",
+      "ingredients": ["Beef", "Mushrooms", "Onions", "Sour cream"],
+      "instructions": "Cook beef. Saute mushrooms and onions. Add sour cream. Serve over noodles."
+    },
+    {
+      "name": "Caesar Salad",
+      "description": "Classic salad made with romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+      "ingredients": ["Romaine lettuce", "Croutons", "Parmesan cheese", "Caesar dressing"],
+      "instructions": "Toss lettuce with dressing. Add croutons and cheese. Serve chilled."
+    },
+    {
+      "name": "Sushi Rolls",
+      "description": "Japanese delicacy made with seasoned rice, seafood, and vegetables wrapped in seaweed.",
+      "ingredients": ["Sushi rice", "Nori seaweed", "Seafood", "Vegetables"],
+      "instructions": "Spread rice on nori. Add filling. Roll tightly. Slice and serve with soy sauce."
+    },
+    {
+      "name": "Tacos",
+      "description": "Mexican street food consisting of a corn or wheat tortilla filled with various meats, vegetables, and toppings.",
+      "ingredients": ["Tortillas", "Beef/chicken/pork", "Lettuce", "Tomatoes", "Cheese", "Salsa"],
+      "instructions": "Cook meat. Warm tortillas. Assemble tacos with desired toppings."
+    },
+    {
+      "name": "Spaghetti Bolognese",
+      "description": "Hearty Italian pasta dish with a rich tomato-based meat sauce.",
+      "ingredients": ["Spaghetti", "Ground beef", "Tomatoes", "Onions", "Garlic"],
+      "instructions": "Cook spaghetti. Brown beef. Saute onions and garlic. Simmer with tomatoes. Serve over pasta."
+    },
+    {
+      "name": "Chicken Alfredo",
+      "description": "Creamy pasta dish with grilled chicken and Alfredo sauce.",
+      "ingredients": ["Pasta", "Chicken breast", "Heavy cream", "Parmesan cheese"],
+      "instructions": "Cook pasta. Grill chicken. Heat cream and cheese. Combine all ingredients."
+    },
+    {
+      "name": "Beef Wellington",
+      "description": "Elegant British dish with tender beef wrapped in puff pastry.",
+      "ingredients": ["Beef fillet", "Puff pastry", "Mushrooms", "Prosciutto", "Dijon mustard"],
+      "instructions": "Wrap beef in mushrooms and prosciutto. Cover with puff pastry. Bake until golden."
+    }
+  ]
+  
