@@ -38,8 +38,8 @@ npm run dev
 create a new folder
 
 ```
-mkdir my-backend-app
-cd my-backend-app
+mkdir Backend
+cd Backend
 ```
 
 ```
